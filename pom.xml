@@ -44,6 +44,13 @@
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
+	
+	<distributionManagement>
+        <snapshotRepository>
+            <id>myMavenRepo</id>
+            <url>http://localhost:8081/repository/myprojectrepo</url>
+        </snapshotRepository>
+    </distributionManagement>
  	<build>
 		<plugins>
 			<plugin>
