@@ -44,24 +44,7 @@
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
- <repositories>
-        <repository>
-            <id>myMavenRepo</id>
-            <url>${myMavenRepoReadUrl}</url>
-        </repository>
-    </repositories>
-    <distributionManagement>
-        <repository>
-            <id>myMavenRepo</id>
-            <url>${myMavenRepoWriteUrl}</url>
-        </repository>
-        <snapshotRepository>
-            <id>myMavenRepo</id>
-            <url>${myMavenRepoWriteUrl}</url>
-        </snapshotRepository>
-    </distributionManagement>
-
-	<build>
+ 	<build>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
