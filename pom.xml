@@ -44,7 +44,6 @@
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
-	<project>
  <repositories>
         <repository>
             <id>myMavenRepo</id>
@@ -61,7 +60,6 @@
             <url>${myMavenRepoWriteUrl}</url>
         </snapshotRepository>
     </distributionManagement>
-</project>
 
 	<build>
 		<plugins>
