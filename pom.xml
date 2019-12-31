@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>com.springboot.security</groupId>
 	<artifactId>springboot-security</artifactId>
-	<version>1.0.0</version>
+	<version>1.0.1,RELEASE</version>
 	<name>springboot-security</name>
 	<description>Demo project for Spring Boot</description>
 
