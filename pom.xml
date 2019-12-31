@@ -47,9 +47,13 @@
 	
 	<distributionManagement>
         <snapshotRepository>
-            <id>myMavenRepo</id>
+            <id>nexusrepo-snapshot</id>
             <url>http://localhost:8081/repository/myprojectrepo</url>
         </snapshotRepository>
+	 <repository>
+      <id>nexus-releases</id>
+      <url>http://localhost:8081/repository/myproject-repo-release</url>
+    </repository>
     </distributionManagement>
  	<build>
 		<plugins>
