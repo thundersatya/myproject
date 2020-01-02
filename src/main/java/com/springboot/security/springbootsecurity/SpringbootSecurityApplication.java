@@ -11,6 +11,10 @@ public class SpringbootSecurityApplication {
 		SpringApplication.run(SpringbootSecurityApplication.class, args);
 		
 		System.out.println("Git test");
+		System.out.println("Git brach test");
+		System.out.println("Git brach test");
+
+
 		
 	}
 
