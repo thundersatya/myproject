@@ -10,6 +10,7 @@ public class SpringbootSecurityApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(SpringbootSecurityApplication.class, args);
 		
+		System.out.println("Git test");
 		
 	}
 
